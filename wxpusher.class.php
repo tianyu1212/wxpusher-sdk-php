@@ -132,6 +132,7 @@ class Wxpusher
             $postdata = array(
                 'appToken' => $this->appToken,
                 'content' => $content,
+                'contentType' => $contentType,
                 $type   => $array_id,
                 'url' => $url,
             );
